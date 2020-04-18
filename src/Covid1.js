@@ -28,7 +28,7 @@ function Covid() {
     
 
     useEffect(()=>{
-        axios.get("https://corona.lmao.ninja/countries")
+        axios.get("https://corona.lmao.ninja/v2/countries")
         .then(promise=>{
             
             //console.log(promise.data[8].countryInfo.flag)
